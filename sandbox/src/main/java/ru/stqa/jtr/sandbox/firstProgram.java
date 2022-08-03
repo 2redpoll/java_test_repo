@@ -1,3 +1,5 @@
+package ru.stqa.jtr.sandbox;
+
 public class firstProgram {
 
 	public static void main(String[] args) {	
