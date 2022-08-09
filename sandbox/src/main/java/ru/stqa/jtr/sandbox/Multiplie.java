@@ -8,4 +8,8 @@ public class Multiplie {
         this.n1 = n1;
         this.n2 = n2;
     }
+
+    public int mult() {
+        return  (this.n1 * this.n2) + 10;
+    }
 }
