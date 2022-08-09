@@ -12,6 +12,9 @@ public class firstProgram {
 
 		Rectangle r = new Rectangle(4, 6);
 		System.out.println("Rectangle area with sides " + r.a + " and " + r.b +  " = "  + area(r));
+
+		Multiplie m = new Multiplie(7, 5);
+		System.out.println(m.n1 + " multiplied by " + m.n2 + ", plus 10 = " + mult(m));
 	}
 
 	public static void hello(String somebody) {
@@ -25,5 +28,8 @@ public class firstProgram {
 	public static double area(Rectangle r) {
 		return r.a * r.b;
 	}
-	
+
+	public static int mult(Multiplie m) {
+		return  (m.n1 * m.n2) + 10;
+	}
 }
