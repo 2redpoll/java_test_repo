@@ -26,14 +26,14 @@ public class SearchtestTest {
   }
 
   @Test
-  public void searchtest() throws InterruptedException  {
+  public void testingSearch() throws InterruptedException  {
     driver.get("https://www.selenium.dev/selenium/web/web-form.html");
     driver.manage().window().setSize(new Dimension(1440, 1040));
     String title = driver.getTitle();
     String curentUrl = driver.getCurrentUrl();
 
     driver.findElement(By.name("my-text")).click();
-    driver.findElement(By.name("my-text")).sendKeys("hooy pizda");
+    driver.findElement(By.name("my-text")).sendKeys("test");   //set new method
    // driver.findElement(By.name("btnK")).click();
     System.out.println(title);
     System.out.println("URL: " + curentUrl);
