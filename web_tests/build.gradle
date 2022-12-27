@@ -13,9 +13,9 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.testng:testng:7.6.1'
-    implementation 'org.slf4j:slf4j-simple:1.7.36'
-    implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.4.0'
+    implementation 'org.testng:testng:7.7.0'
+    implementation 'org.slf4j:slf4j-simple:2.0.5'
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.7.2'
 }
 
 test {

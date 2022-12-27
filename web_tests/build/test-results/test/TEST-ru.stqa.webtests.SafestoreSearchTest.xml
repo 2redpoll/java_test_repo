@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.stqa.webtests.SafestoreSearchTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-09-02T09:56:15" hostname="VLAD-PC" time="28.522">
+<testsuite name="ru.stqa.webtests.SafestoreSearchTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-12-27T11:20:05" hostname="VLAD-PC" time="142.444">
   <properties/>
-  <testcase name="ssSearchTest" classname="ru.stqa.webtests.SafestoreSearchTest" time="28.522"/>
+  <testcase name="ssSearchTest" classname="ru.stqa.webtests.SafestoreSearchTest" time="142.444"/>
   <system-out><![CDATA[Self Storage Units in London & UK | Safestore
 URL: https://www.safestore.co.uk/
 Time test method two
